@@ -25,5 +25,5 @@ docker run -d ouroboros:latest
 
 ```bash
 docker container inspect `docker ps | grep ouroboros | cut -f 1 -d ' '`
-ssh root@<ip>
+ssh root@<ip> -p 80
 ```
